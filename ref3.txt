@@ -1,0 +1,6 @@
+>> Foo.new.camelize_string('blah_blah_blah')
+=> "blahBlahBlah"
+>> 'blah_blah_blah'.camelize
+NoMethodError: undefined method `camelize' for "blah_blah_blah":String
+	from (irb):17
+	from /usr/local/bin/irb-2.0.0:12:in `<main>'
